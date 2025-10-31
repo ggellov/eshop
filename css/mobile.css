@@ -1,11 +1,35 @@
 @media screen and (max-width:400px) {
-    .header-top{
-        display:block;
-    }
-    .header-top img{
-        display: none;
-    }
-    .line{
+    .header-top {
         display: block;
+        text-align: center;
+    }
+
+    .header-logo {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .header-text {
+        transform: none;
+        font-size: 1rem;
+    }
+
+    .header-text div {
+        font-size: 2rem;
+    }
+
+    .line {
+        display: block;
+    }
+
+    .line-nav ul li {
+        margin: 5px 0;
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .line-content {
+        margin: 10px;
+        padding: 15px;
     }
 }
